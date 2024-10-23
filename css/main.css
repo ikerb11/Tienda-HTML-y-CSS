@@ -1,0 +1,143 @@
+
+body {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+
+}
+body > div{
+  background-color: lightblue;
+  padding: 20px;
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+  width: 100%;
+  opacity: 1;
+}
+.ImagenBody{
+  margin: 50px 0px;
+  height: auto;
+  max-height: 800px;
+  width: 100%;
+
+}
+.name {
+  color: #fff;
+}
+nav {
+  margin-left:-15px ;
+  width: 100%;
+  height: auto;
+  background: rgba(215,117,117,1);
+  border: 1px solid rgba(30,30,30,1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+nav > div {
+  background-color: lightblue;
+  padding: 20px;
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+  width: 100%;
+  opacity: 1;
+  flex: 1;
+}
+
+.NavFuente {
+  width: 246px;
+  color: rgba(0,0,0,1);
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.OpcionNav {
+  width: 20%;
+  height: auto;
+  background: rgba(217,217,217,0);
+  opacity: 1;
+  position: relative;
+  border: 6px solid rgba(0,0,0,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+  padding: auto;
+}
+main{
+  font-size: 14px;
+  display: flex;
+  flex-direction:row;
+}
+main > div{
+  flex: 1;
+  
+}
+
+.Titulo {
+  width: 441px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  flex: 2;
+  margin: 20px;
+  max-width: 577px ;
+}
+.MainOpcion {
+  width: 213px;
+  min-height: 350px;
+  margin: auto;
+  height: auto;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.MainCaja {
+  width: 213px;
+  min-height: 350px;
+  margin: auto;
+  height: auto;
+  background: rgba(232,232,232,1);
+  opacity: 1;
+  border: 8px solid rgba(120,102,102,1);
+  display: flex;
+  flex-direction: column;
+}
+.ImagenMain {
+  margin: auto;
+  width: 197px;
+  height: auto;
+}
+.CajaTitulo {
+  color: rgba(0,0,0,1);
+  font-family: Inria Sans;
+  font-weight: Light;
+  font-size: 24px;
+  margin-top: auto;
+  opacity: 1;
+  text-align: left;
+  display: block;
+}
+.CajaDescripcion {
+  width: 193px;
+  color: rgba(0,0,0,1);
+  display: block;
+  
+  top: 255px;
+  left: 9px;
+  font-family: Inria Sans;
+  font-weight: Light;
+  font-size: 20px;
+  opacity: 1;
+  text-align:left;
+}
+

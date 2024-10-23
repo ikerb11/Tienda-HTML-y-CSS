@@ -1,0 +1,23 @@
+.NosotrosMain{
+    color: rgba(0,0,0,1);
+    display: block;
+    
+    top: 255px;
+    font-family: Inria Sans;
+    font-weight: Light;
+    font-size: 20px;
+    opacity: 1;
+    text-align:left;
+}
+.SeccionNosotros{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.SeccionNosotros > div{
+    flex: 1;
+}
+img{
+    max-width: 34%;
+    margin: 5px;
+}
