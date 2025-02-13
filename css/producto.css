@@ -21,7 +21,6 @@
   opacity: 1;
   top: 0px;
   left: 0px;
-  border: 3px solid rgba(0,0,0,1);
   border-top-left-radius: 28px;
   border-top-right-radius: 28px;
   border-bottom-left-radius: 28px;
@@ -60,7 +59,7 @@ td {
   height: auto;
   background: rgba(232,232,232,1);
   opacity: 1;
-  border: 8px solid rgba(120,102,102,1);
+  border: 9px solid rgb(255, 255, 255);
 
 
 }
